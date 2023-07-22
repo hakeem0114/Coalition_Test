@@ -9,11 +9,11 @@ import Contact from './Pages/Team'
 function App() {
 
   return (
-    <>
+    <div className='max-w-screen max-h-screen'>
       <Home/>
       <History/>
       <Contact/>
-    </>
+    </div>
   )
 }
 
