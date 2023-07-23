@@ -48,7 +48,7 @@ const History = () => {
     <div className='relative' >
       <img className=' object-cover h-screen w-full ' src={historyMain} alt="bodyImage" /> 
     
-      <div className=' absolute top-4  -mt-40  w-full h-full flex flex-col justify-center '>
+      <div className='absolute top-4  -mt-40  w-full h-full flex flex-col justify-center items-center '>
           <div className='flex flex-row justify-center items-center'>
             <h1 className=' text-9xl text-gray-500 leading-tight tracking-tighter '>01.</h1>
             <h3 className='text-gray-700 text-2xl font-bold' >HISTORY</h3>
