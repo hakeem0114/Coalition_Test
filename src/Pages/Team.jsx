@@ -24,24 +24,26 @@ const Team = () => {
                     <h1 className='font-bold text-5xl text-slate-700'>Schedule</h1>
 
                     <table className='mt-5 text-gray-600'>
-                      <tr className='flex gap-10'>
-                        <td>25 Nov 2016</td>
-                        <td>Vestiulum virera</td>
-                      </tr>
-                      <tr className='flex gap-10'>
-                        <td>25 Nov 2016</td>
-                        <td>Vestiulum virera</td>
-                      </tr>
-                      <br />
-                      <tr className='flex gap-10'>
-                        <td>25 Nov 2016</td>
-                        <td>Vestiulum virera</td>
-                      </tr>
-                      <br />
-                      <tr className='flex gap-10'>
-                        <td>25 Nov 2016</td>
-                        <td>Vestiulum virera</td>
-                      </tr>
+                      <tbody>
+                               <tr className='flex gap-10'>
+                                  <td>25 Nov 2016</td>
+                                  <td>Vestiulum virera</td>
+                                </tr>
+                                <tr className='flex gap-10 mb-5'>
+                                  <td>25 Nov 2016</td>
+                                  <td>Vestiulum virera</td>
+                                </tr>
+                                
+                                <tr className='flex gap-10 mb-5'>
+                                  <td>25 Nov 2016</td>
+                                  <td>Vestiulum virera</td>
+                                </tr>
+                                
+                                <tr className='flex gap-10'>
+                                  <td>25 Nov 2016</td>
+                                  <td>Vestiulum virera</td>
+                              </tr>
+                      </tbody>
                     </table>
                 </div>
               </div>
